@@ -49,9 +49,9 @@ That means that the subjects that are more difficult or with a closer deadline r
 ## How to Run the Project Locally
 
 ### Backend
-cd backend
-pip install flask flask-cors
-python app.py
+- cd backend
+- pip install flask flask-cors
+- python app.py
 
 ## What I Learned
 
