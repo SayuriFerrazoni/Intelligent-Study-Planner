@@ -29,6 +29,10 @@ Based on the information provided by the user, the system generates a daily stud
 
 ## Screenshot
 
+### Main Interface
+The main interface where the students can input their study information to create a study plan.
+
+![Study Planner Screenshot](screenshots/studyinterface.png)
 
 ## How The Planner Works
 
