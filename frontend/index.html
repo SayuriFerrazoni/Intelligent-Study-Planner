@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Study Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 AI Study Planner</h1>
+<p>Create a personalized daily study schedule based on difficulty and deadlines.</p>
+
+<section>
+    <h2>Add a subject</h2>
+    <input type="text" id="subject" placeholder="Subject name">
+    <input type="number" id="difficulty" min="1" max="3" placeholder="Difficulty (1–3)">
+    <input type="date" id="deadline">
+    <button id="add-subject">Add Subject</button>
+</section>
+
+<section>
+    <h2>Subjects</h2>
+    <ul id="subjects-list"></ul>
+</section>
+
+<section>
+    <h2>Study settings</h2>
+    <label>Hours per day:</label>
+    <input type="number" id="hours" value="3" min="1" max="12">
+</section>
+
+<section>
+    <h2>Missed a day?</h2>
+    <label>Select missed date:</label>
+    <input type="date" id="missed-day">
+</section>
+
+<section>
+    <button id="generate">Generate Study Plan</button>
+</section>
+
+<section>
+    <h2>📅 Your Study Plan</h2>
+    <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
